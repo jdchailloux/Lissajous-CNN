@@ -1,2 +1,31 @@
 # Lissajous-CNN
 Official MATLAB implementation of the PANCHO framework for zero-shot, single-channel SSVEP decoding using topological feature extraction.
+
+# Lissajous-CNN (The PANCHO Framework) for SSVEP Decoding
+
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2023a%2B-blue.svg)](https://www.mathworks.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+This repository contains the official MATLAB implementation of the **PANCHO framework** (Pattern analysis, Artificial intelligence, Normalization, Calibration-free, and Hardware optimization), a novel single-channel Brain-Computer Interface (BCI) decoding algorithm for Steady-State Visual Evoked Potentials (SSVEP).
+
+Instead of relying on multi-channel spatial filtering and exhaustive human calibration, this method projects 1D EEG time-series into 2D topological invariants (Lissajous curves). A lightweight Convolutional Neural Network (CNN) trained exclusively on synthetically generated data is then used to classify the geometric morphology of the phase-space trajectory, achieving high-speed ($\le 1.0$ s), zero-shot decoding.
+
+## Repository Structure
+* `/data/`: Contains sample synthetic Lissajous images for training and a small subset of pre-processed EEG trials for testing.
+* `/models/`: Contains the pre-trained `Pretrained_CNN_3x3_drop50.mat` model.
+* `/scripts/`:
+  * `Train_Lissajous_CNN.m`: Script to construct and train the CNN architecture using synthetic data.
+  * `Evaluate_PseudoOnline.m`: Script to benchmark the trained CNN against EEG datasets.
+  * `Compute_Metrics.m`: Utility functions for calculating Accuracy, ITR, and Cohen's Kappa ($\kappa$).
+
+## Prerequisites
+To run the code, you will need MATLAB installed with the following toolboxes:
+* Deep Learning Toolbox
+* Signal Processing Toolbox
+* Statistics and Machine Learning Toolbox
+
+## Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Lissajous-CNN.git](https://github.com/your-username/Lissajous-CNN.git)
