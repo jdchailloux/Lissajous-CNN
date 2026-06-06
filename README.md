@@ -26,3 +26,9 @@ To run the code, you will need MATLAB installed with the following toolboxes:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/Lissajous-CNN.git](https://github.com/your-username/Lissajous-CNN.git)
+
+2. **Run Inference on Sample Data:**
+Open MATLAB, navigate to the /scripts/ folder, and execute `Evaluate_PseudoOnline.m` to see the zero-shot classification in action over a 0.5 s observation window.
+
+## Citation
+If you find this code useful in your research, please cite our paper:
