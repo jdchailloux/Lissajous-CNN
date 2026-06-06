@@ -32,3 +32,6 @@ Open MATLAB, navigate to the /scripts/ folder, and execute `Evaluate_PseudoOnlin
 
 ## Citation
 If you find this code useful in your research, please cite our paper:
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
