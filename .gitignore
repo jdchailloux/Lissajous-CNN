@@ -1,0 +1,18 @@
+# Archivos temporales y de autoguardado de MATLAB
+*.asv
+*.m~
+*.req~
+
+# Archivos compilados y de caché
+slprj/
+sfprj/
+*.mex*
+*.mexw64
+*.mexmaci64
+*.mexa64
+
+# Carpetas ocultas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Nota: No bloqueamos los archivos *.mat para subir los modelos preentrenados y datos.
