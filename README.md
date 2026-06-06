@@ -1,6 +1,3 @@
-# Lissajous-CNN
-Official MATLAB implementation of the PANCHO framework for zero-shot, single-channel SSVEP decoding using topological feature extraction.
-
 # Lissajous-CNN (The PANCHO Framework) for SSVEP Decoding
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023a%2B-blue.svg)](https://www.mathworks.com/)
