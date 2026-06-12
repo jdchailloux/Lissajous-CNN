@@ -30,7 +30,7 @@ To run the code, you will need MATLAB installed with the following toolboxes:
 Open MATLAB, navigate to the /scripts/ folder, and execute `Evaluate_PseudoOnline.m` to see the zero-shot classification in action over a 0.5 s observation window.
 
 ## Citation
-If you find this code useful in your research, please cite our paper:
+If you find this code useful in your research, please cite our paper (NOW UNDER REVIEW):
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
