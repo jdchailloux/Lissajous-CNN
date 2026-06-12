@@ -9,12 +9,11 @@ This repository contains the official MATLAB implementation of the **PANCHO fram
 Instead of relying on multi-channel spatial filtering and exhaustive human calibration, this method projects 1D EEG time-series into 2D topological invariants (Lissajous curves). A lightweight Convolutional Neural Network (CNN) trained exclusively on synthetically generated data is then used to classify the geometric morphology of the phase-space trajectory, achieving high-speed ($\le 1.0$ s), zero-shot decoding.
 
 ## Repository Structure
-* `/data/`: Contains sample synthetic Lissajous images for training and a small subset of pre-processed EEG trials for testing.
-* `/models/`: Contains the pre-trained `Pretrained_CNN_3x3_drop50.mat` model.
+* `/data/`: Contains a sample pre-processed EEG trial (`sample_EEG.mat`) for testing.
+* `/models/`: Contains the pre-trained `Pretrained_CNN_3x3_drop50.mat` zero-shot model.
 * `/scripts/`:
   * `Train_Lissajous_CNN.m`: Script to construct and train the CNN architecture using synthetic data.
-  * `Evaluate_PseudoOnline.m`: Script to benchmark the trained CNN against EEG datasets.
-  * `Compute_Metrics.m`: Utility functions for calculating Accuracy, ITR, and Cohen's Kappa ($\kappa$).
+  * `Evaluate_PseudoOnline.m`: All-in-one script to benchmark the trained CNN against the sample EEG data, including resonant filtering, rasterization, and automated metrics computation.
 
 ## Prerequisites
 To run the code, you will need MATLAB installed with the following toolboxes:
