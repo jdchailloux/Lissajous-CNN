@@ -12,7 +12,6 @@ Instead of relying on multi-channel spatial filtering and exhaustive human calib
 [![Watch the video](https://youtube.com)](https://www.youtube.com/watch?v=N8jD6kLlnsI)
 
 
-
 ## Repository Structure
 * `/data/`: Contains a sample pre-processed EEG trial (`sample_EEG.mat`) for testing.
 * `/models/`: Contains the pre-trained `Pretrained_CNN_3x3_drop50.mat` zero-shot model.
