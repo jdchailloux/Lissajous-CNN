@@ -9,7 +9,9 @@ This repository contains the official MATLAB implementation of the **PANCHO fram
 Instead of relying on multi-channel spatial filtering and exhaustive human calibration, this method projects 1D EEG time-series into 2D topological invariants (Lissajous curves). A lightweight Convolutional Neural Network (CNN) trained exclusively on synthetically generated data is then used to classify the geometric morphology of the phase-space trajectory, achieving high-speed ($\le 1.0$ s), zero-shot decoding.
 
 ## Video demonstration of the project
-[![YouTube Video Preview]([https://youtu.be/N8jD6kLlnsI](https://youtu.be/N8jD6kLlnsI)
+[![YouTube Video Preview]
+(https://img.youtube.com/vi/N8jD6kLlnsI/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=N8jD6kLlnsI)
 
 
 ## Repository Structure
