@@ -11,7 +11,7 @@ Instead of relying on multi-channel spatial filtering and exhaustive human calib
 ## Video demonstration of the project
 <table>
   <tr>
-    <td width="300">
+    <td width="680">
       <video src="https://github.com/user-attachments/assets/e244d190-6048-4fa5-85fb-4bb4f12aa367" controls></video>
     </td>
   </tr>
